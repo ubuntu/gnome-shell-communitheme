@@ -835,7 +835,7 @@ StScrollBar {
       // Trick due to St limitations. It needs a background to draw
       // a box-shadow
       background-color: rgba(0, 0, 0, 0.01);
-      box-shadow: inset 0px -3px $selected_bg_color;
+      box-shadow: inset 0px -2px $selected_bg_color;
       color: lighten($_fg,10%);
 
       & > .system-status-icon { icon-shadow: none; /*black 0 2px 2px;*/ }
