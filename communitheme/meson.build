@@ -53,6 +53,7 @@ data_sources = [
   'toggle-on-intl.svg',
   'toggle-on-us.svg',
   'ubuntu-logo-icon.svg',
+  'user-icon.svg',
   'ws-switch-arrow-down.svg',
   'ws-switch-arrow-up.svg',
 ]

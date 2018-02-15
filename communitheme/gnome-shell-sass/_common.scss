@@ -1778,13 +1778,14 @@ StScrollBar {
 /* Auth Dialogs & Screen Shield */
 
 .framed-user-icon {
+  background-image: url("user-icon.svg");
   background-size: contain;
-  border: 2px solid $osd_fg_color;
-  color: $osd_fg_color;
+  border: none;
+  color: transparent;
   border-radius: $small_radius;
   &:hover {
-    border-color: lighten($osd_fg_color,30%);
-    color: lighten($osd_fg_color,30%);
+    border-color: transparent;
+    color: transparent;
   }
 }
 
