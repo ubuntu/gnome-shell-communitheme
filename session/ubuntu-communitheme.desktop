@@ -5,5 +5,5 @@ Exec=env GNOME_SHELL_SESSION_MODE=ubuntu-communitheme gnome-session --session=ub
 TryExec=gnome-shell
 Icon=
 Type=Application
-DesktopNames=ubuntu-communitheme:ubuntu:GNOME
+DesktopNames=ubuntu:GNOME
 X-Ubuntu-Gettext-Domain=gnome-session-3.0
