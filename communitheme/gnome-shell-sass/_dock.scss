@@ -211,6 +211,9 @@
     &, & .overview-icon {
       // normal
     }
+    .app-well-app-running-dot {
+      width: 0;
+    }
 
     &:active .overview-icon,
     &:checked .overview-icon {
