@@ -213,6 +213,8 @@
     }
     .app-well-app-running-dot {
       width: 0;
+      height: 0;
+      position: left;
     }
 
     &:active .overview-icon,

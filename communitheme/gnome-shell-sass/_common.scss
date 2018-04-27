@@ -1475,14 +1475,15 @@ StScrollBar {
       border-image: none;
       background-image: none;
     }
-
   }
 
-    .app-well-app-running-dot { //running apps indicator
-    width: 119px; height: 2px;
-    background-color: $selected_bg_color;
-    margin-bottom: 2px;
-  }
+  .app-well-app-running-dot { //running apps indicator
+width: 5px; height: 100px;
+position: top;
+background-color: transparent;
+background-image: url("resource:///org/gnome/shell/theme/running-indicator.svg");
+margin-bottom: 12px;
+}
 
   %icon_tile {
     // appeareance of apps
