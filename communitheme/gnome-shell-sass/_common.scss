@@ -1482,11 +1482,10 @@ StScrollBar {
   }
 
   .app-well-app-running-dot { //running apps indicator
-width: 5px; height: 100px;
-position: top;
-background-color: transparent;
-background-image: url("resource:///org/gnome/shell/theme/running-indicator.svg");
-margin-bottom: 12px;
+width: 6px; height: 6px;
+border-radius: 3px;
+background-color: $selected_bg_color;
+margin-bottom: 1px;
 }
 
   %icon_tile {
