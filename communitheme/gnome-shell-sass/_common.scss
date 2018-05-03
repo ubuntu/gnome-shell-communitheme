@@ -64,7 +64,6 @@ stage {
 
 .modal-dialog-linked-button {
   border-right-width: 1px;
-  border-top: 1px solid $dialog_borders_color;
   $c: $dialog_button_bg_color;
   $tc: $dialog_fg_color;
   @include button(normal, $c, $tc);
@@ -74,6 +73,7 @@ stage {
   &:focus:hover { @include button(focus-hover, $c, $tc); }
   &:insensitive { @include button(insensitive, $c, $tc); }
   padding: 12px;
+  border-top: 1px solid $dialog_borders_color;
 
   &:first-child {
     border-radius: 0px 0px 0px $medium_radius;
