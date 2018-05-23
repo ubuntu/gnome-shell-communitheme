@@ -808,7 +808,7 @@ StScrollBar {
 
 #panel {
   $_fg: darken($panel_fg_color, 5%);
-  background-color: transparentize($panel_bg_color, $panel-alpha-value);
+  background-color: transparentize($panel-solid-bg, $panel-alpha-value);
 
   /* transition from solid to transparent */
   transition-duration: 500ms;
@@ -908,7 +908,7 @@ StScrollBar {
   .screencast-indicator { color: $warning_color; }
 
   &.solid {
-    background-color: transparentize($panel_bg_color, $panel_opaque_value);
+    background-color: transparentize($panel-solid-bg, $panel_opaque_value);
 
     /* transition from transparent to solid */
     box-shadow: none;
