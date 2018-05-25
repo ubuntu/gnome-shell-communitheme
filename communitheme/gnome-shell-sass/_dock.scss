@@ -153,11 +153,13 @@
   &.shrink.left #dash,
   &.dashtodock.left #dash {
     border: none !important;
+    box-shadow: inset -1px 0 0 0 $inkstone !important;
   }
 
   &.shrink.right #dash,
   &.dashtodock.right #dash {
     border: none !important;
+    box-shadow: inset 1px 0 0 0 $inkstone !important;
   }
 
   &.shrink.top #dash,
