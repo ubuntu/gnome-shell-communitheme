@@ -2120,8 +2120,8 @@ StScrollBar {
 }
 
 #lockDialogGroup {
-  // background: #2e3436 url(resource:///org/gnome/shell/theme/noise-texture.png);
-  background: #2c001e url("lockscreen-gradient.svg");
+  //Removing the gradient for now, since the shell renders the gradient without transition
+  background: #2c001e;// url("lockscreen-gradient.svg");
   background-size: cover; // 40px;
   background-position: top right;
   background-repeat: no-repeat; // repeat;
