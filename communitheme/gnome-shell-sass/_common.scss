@@ -780,6 +780,8 @@ StScrollBar {
   StEntry {
     @extend %light_entry;
   }
+
+  border: none;
 }
 
 /* Tiled window previews */
@@ -1677,6 +1679,8 @@ StScrollBar {
     StEntry {
       @extend %light_entry
     }
+
+    border:none;
   }
 
   .notification-icon { padding: 5px;}
