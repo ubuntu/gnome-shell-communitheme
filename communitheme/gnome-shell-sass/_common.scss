@@ -1952,12 +1952,12 @@ StScrollBar {
   border: none;
   background-color: transparent;
 
-  StEntry {
-    @extend %light_entry;
-    &:focus { border-color: transparentize($fg_color,0.1); }
-    &:insensitive {
-      @include entry(insensitive, $tc: $slate, $c: $porcelain);
-      color: lighten($insensitive_fg_color,40%);}
+  > StBoxLayout {
+  // this is the main window that the widgets are drawn on
+    background-color: $_popover_bg_color;
+    padding: 12px 40px 24px 40px;
+    border: 1px solid $osd_borders_color;
+    border-radius: $large_radius;
   }
 
   .modal-dialog-button-box { spacing: 3px; }
@@ -2129,7 +2129,7 @@ StScrollBar {
 
 #lockDialogGroup {
   // background: #2e3436 url(resource:///org/gnome/shell/theme/noise-texture.png);
-  background: #2c001e url("lockscreen-gradient.svg");
+  background: #2c001e /*url("lockscreen-gradient.svg")*/;
   background-size: cover; // 40px;
   background-position: top right;
   background-repeat: no-repeat; // repeat;
