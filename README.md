@@ -1,6 +1,4 @@
-# IMPORTANT UPDATE: PLEASE REPORT SHELL ISSUES ON THE GTK REPOSITORY THE CODE WILL MOVE SOON, TOO
-
---> https://github.com/ubuntu/gtk-communitheme
+# This repository has been merged into ubuntu/yaru.
 
 # Ubuntu Communitheme
 
